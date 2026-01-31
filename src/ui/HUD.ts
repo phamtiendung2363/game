@@ -1,6 +1,5 @@
 import Phaser from 'phaser';
 
-// HUD bar & stats
 const HUD_DEPTH = 100;
 const BAR_HEIGHT = 46;
 const MARGIN_TOP = 14;

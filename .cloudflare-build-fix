@@ -1,0 +1,4 @@
+# Cloudflare Pages build fix
+# GameScene.ts: no "const c = CONFIG.colors" in showGameOverScreen()
+# HUD.ts: no "import { CONFIG } from '../config'"
+# Commit and push this + the two fixed files.
