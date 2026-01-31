@@ -616,6 +616,7 @@ export class GameScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
     const FONT = "'Plus Jakarta Sans', -apple-system, sans-serif";
 
+    // Game Over overlay & panel
     const overlay = this.add.rectangle(
       Math.round(width / 2),
       Math.round(height / 2),
