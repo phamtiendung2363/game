@@ -614,7 +614,6 @@ export class GameScene extends Phaser.Scene {
   
   private showGameOverScreen(): void {
     const { width, height } = this.cameras.main;
-    const c = CONFIG.colors;
     const FONT = "'Plus Jakarta Sans', -apple-system, sans-serif";
 
     const overlay = this.add.rectangle(

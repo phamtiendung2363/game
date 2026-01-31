@@ -1,5 +1,4 @@
 import Phaser from 'phaser';
-import { CONFIG } from '../config';
 
 const HUD_DEPTH = 100;
 const BAR_HEIGHT = 46;
